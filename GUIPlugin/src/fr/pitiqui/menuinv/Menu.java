@@ -22,7 +22,7 @@ public class Menu implements Listener {
 	private ItemStack c, s, a;
 	
 	public Menu(Plugin p) {
-		inv = Bukkit.getServer().createInventory(null, 9, "Gamemode Chooser");
+		inv = Bukkit.getServer().createInventory(null, 9, "Gamemode Chooser(oupas)");
 		
 		c = createItem(DyeColor.GREEN, ChatColor.GREEN + "Creative");
 		s = createItem(DyeColor.YELLOW, ChatColor.YELLOW + "Survival");
