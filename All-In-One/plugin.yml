@@ -1,0 +1,9 @@
+    name: All-In-One
+    version: 1.0
+    main: fr.pitiqui.AllInOne.Main
+    description: All.
+    commands:
+        write:
+            description: Force le joueur a ecrire le message que vous avez dis
+            usage: /write [pseudo] [message]
+
